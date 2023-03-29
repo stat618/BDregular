@@ -1,0 +1,3 @@
+# BDregular
+An r package based on Y. Yang, H. Dai, J. Pan (2022). Block-diagonal precision matrix regularization for ultra-high dimensional data. Computational Statistics & Data Analysis, Volume 179, 2023, 107630, DOI: https://doi.org/10.1016/j.csda.2022.107630
+Build ing...
