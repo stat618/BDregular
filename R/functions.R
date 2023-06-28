@@ -3,6 +3,7 @@ dmean <- function(A){
   A = t(t(A) - a)
   return(A)
 }
+
 # 标准化
 standard=function(A){
   a=colMeans(A)
