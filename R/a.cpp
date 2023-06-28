@@ -1,6 +1,7 @@
 
 #include <RcppArmadillo.h>
 
+
 // [[Rcpp::depends(RcppArmadillo)]]
 
 
@@ -8,6 +9,7 @@ using namespace Rcpp;
 
 // [[Rcpp::export]]
 arma::mat cov2cor(arma::mat cov) {
+
   arma::vec sds = sqrt(cov.diag());
   arma::mat outer_sds = sds * sds.t();
   arma::mat cor = cov / outer_sds;
