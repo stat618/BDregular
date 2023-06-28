@@ -3,6 +3,7 @@
 
 // [[Rcpp::depends(RcppArmadillo)]]
 
+
 using namespace Rcpp;
 
 // [[Rcpp::export]]

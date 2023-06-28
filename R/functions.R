@@ -12,6 +12,7 @@ standard=function(A){
   B=t(t(B)/b)
   return(B)
 }
+
 # 将两个矩阵合并为一个块对角矩阵
 blockdiag=function(A,B){
   if(length(A)>1){
